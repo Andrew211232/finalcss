@@ -2,13 +2,35 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .header {
     background-color: blue;
-    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
 }
 .trueheader {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 1;
 }
+#logo {
+    align-self: flex-start;
+    flex-grow: 2;
+}
+.headtwo { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Title {
+    align-self: flex-start;
+}
+.ImageT {
+    align-self: flex-end;
+}
+
 .two {
     background-color: white;
     display: flex;
@@ -22,12 +44,14 @@ body {
     justify-content: center;
     height: fit-content;
 }
+
 .three {
     background-color: grey;
     height: fit-content;
     padding: 80px 10px;
     text-align: center;
 }
+
 .footer {
     padding: 40px 10px;
     margin: auto;
