@@ -38,6 +38,9 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.two h1 {
+    margin: 70px 20px 50px 20px;
+}
 .rowpics {
     display: flex;
     flex-direction: row;
@@ -47,6 +50,7 @@ body {
     margin: 30px;
     border-style: solid;
     border-width: 2px;
+    border-radius: 40px;
 }
 .para {
     display: flex;
@@ -59,9 +63,11 @@ body {
     padding: 80px 10px;
     text-align: center;
 }
+#person {
+    position: relative;
+    left: 300px;
+}
 
 .footer {
-    padding: 40px 10px;
-    margin: auto;
-    
+    text-align: center;
 }
