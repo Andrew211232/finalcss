@@ -39,12 +39,12 @@ body {
     align-items: center;
 }
 .two h1 {
-    margin: 70px 20px 50px 20px;
+    margin: 50px 20px 40px 20px;
 }
 .rowpics {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .rowpics img {
     margin: 30px;
@@ -56,6 +56,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.para p {
+    margin: 0px 120px 30px 120px;
 }
 .three {
     background-color: grey;
@@ -69,5 +72,13 @@ body {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    width: 600px;
     text-align: center;
+    border-radius: 20px;
+    padding: 10px 150px;
+    margin: 50px auto;
+    background-clip: padding-box;
+    background-color: blue;
 }
