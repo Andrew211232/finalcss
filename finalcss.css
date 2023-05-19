@@ -55,10 +55,12 @@ body {
 .para {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 230px;
 }
 .para p {
-    margin: 0px 120px 30px 120px;
+    margin-top: 30px;
+    max-width: 120px;
 }
 .three {
     background-color: grey;
